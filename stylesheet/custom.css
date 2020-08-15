@@ -1,0 +1,152 @@
+            body {
+                padding-bottom: 30px;
+            }
+            
+            h1 {
+                text-align: center;
+            }
+            
+            .heading1 {
+                position: absolute;
+                font-weight: 900;
+                left: 40%;
+                top: 20%;
+                color: white;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            /* Colors */
+            
+            .bg-grey {
+                background-color: #d8d8d863;
+            }
+            /* Underline titles */
+            
+            .rule {
+                margin-bottom: 25px;
+                /* border-bottom: 3px solid red;
+    top: 2.3em;
+    left: 23em; */
+            }
+            
+            hr {
+                top: 2.3em;
+                left: 23em;
+                width: 20px;
+                height: 2px;
+                color: red;
+            }
+            
+            .rule:after {
+                content: "";
+                position: absolute;
+                width: 5%;
+                top: 2.3em;
+                left: 23em;
+                border-bottom: 3px solid red;
+                text-align: center;
+            }
+            
+            h2.rule:after {
+                position: absolute;
+                width: 5%;
+                top: 2.3em;
+                left: 23em;
+                border-bottom: 3px solid red;
+                text-align: center;
+            }
+            
+            .page_num h6 {
+                padding-bottom: 0px;
+                margin-bottom: 0px;
+                font-weight: bolder;
+            }
+            /* Cards */
+            
+            h2.rule:after {
+                border-color: red;
+            }
+            
+            h4 {
+                float: left;
+                left: 10%;
+                margin-bottom: 50px;
+            }
+            
+            .status_image {
+                float: left;
+            }
+            
+            .card {
+                border-radius: 25px;
+            }
+            
+            #spec-cards .card {
+                border-radius: 75px;
+            }
+            
+            label {
+                color: #d80f0f;
+                border-color: red;
+            }
+            
+            .status_image {
+                width: 25px;
+            }
+            /* Colors */
+            
+            .btn-danger {
+                background-color: red;
+            }
+            
+            .text-danger {
+                color: red;
+            }
+            
+            .btn-danger:hover {
+                background-color: #d80f0f;
+            }
+            
+            button {
+                align-content: center;
+            }
+            
+            .para {
+                border-bottom: 2px solid black;
+                padding-bottom: -3px;
+                margin-bottom: 10px;
+            }
+            
+            .para-danger {
+                color: #d80f0f;
+            }
+            
+            #conent {
+                padding-left: 100px;
+            }
+            
+            .donors {
+                width: 100px;
+                height: 50px;
+            }
+            
+            a {
+                margin-top: 60px;
+                border-radius: 50px;
+            }
+            
+            .header {
+                text-align: center;
+            }
+            
+            .right {
+                float: right;
+            }
+            
+            table {
+                margin-top: 60px;
+            }
+            
+            td {
+                margin: 100px;
+                padding: 10px;
+            }
